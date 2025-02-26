@@ -35,8 +35,8 @@ export default function Education() {
         <>
           <h3>{schoolName ? schoolName : "School Name"}</h3>
           <h4>{major ? major : "Major"}</h4>
-          <h3>{dateStart ? dateStart : "Date"}</h3>
-          <h3>{dateEnd ? dateEnd : ""}</h3>
+          <h4>{dateStart ? dateStart : "Start Date"}</h4>
+          <h4>{dateEnd ? dateEnd : "End Date"}</h4>
         </>
       )}
     </>

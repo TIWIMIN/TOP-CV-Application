@@ -40,9 +40,9 @@ export default function Experience() {
         <>
           <h3>{companyName ? companyName : "Company Name"}</h3>
           <h4>{positionName ? positionName : "Position Name"}</h4>
-          <p>{experience ? experience : "Place experience here"}</p>
-          <h3>{startDate ? startDate : "Date"}</h3>
-          <h3>{endDate ? endDate : ""}</h3>
+          <p>{experience ? experience : "Experience"}</p>
+          <h4>{startDate ? startDate : "Start Date"}</h4>
+          <h4>{endDate ? endDate : "End Date"}</h4>
         </>
       )}
     </>
