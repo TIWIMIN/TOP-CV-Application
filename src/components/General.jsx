@@ -36,8 +36,8 @@ export default function General() {
       ) : (
         <>
           <h3>{name ? name : "Name"}</h3>
-          <h3>{email ? email : "Email"}</h3>
-          <h3>{phoneNumber ? phoneNumber : "Phone Number"}</h3>
+          <h4>{email ? email : "Email"}</h4>
+          <h4>{phoneNumber ? phoneNumber : "Phone Number"}</h4>
         </>
       )}
     </>
